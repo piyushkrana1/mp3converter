@@ -1,3 +1,23 @@
+## Architecture Overview
+
+The project architecture follows a microservices approach, utilizing Kubernetes for container orchestration and RabbitMQ for message queuing. Below is an overview of the architecture:
+
+### Components:
+
+1. **Gateway Service**
+2. **Authentication Microservice**
+3. **Converter Microservice**
+4. **Notification Microservice**
+5. **RabbitMQ**
+6. **MongoDB**
+7. **Kubernetes Cluster**
+
+### Architecture Diagram:
+
+Include your architecture diagram here.
+
+![Architecture Diagram](./output/architecture_diagram.png)
+
 ## Project Description
 
 This project utilizes a single-node Minikube cluster with Kubernetes and RabbitMQ to convert videos to MP3 format. The microservices architecture is employed, with each microservice deployed in Kubernetes using Docker containers and RabbitMQ for communication.
