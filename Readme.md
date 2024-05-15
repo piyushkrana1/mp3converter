@@ -31,6 +31,13 @@ This project implements a video-to-MP3 conversion service using a microservices 
 
 ![Directory Tree](./output/directory.png)
 
+## Kubernetes Cluster Status (K9s)
+### K9s Running Locally
+
+![K9s Screenshot](./output/k9s.png)
+
+
+
 ## Postman API Call
 ### Step 1: Get Token
 ![Step 1](./output/gettoken.png)
